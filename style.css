@@ -746,3 +746,7 @@ body.light-mode #language option {
     border-color: #36e5ff;
     transform: translateY(-3px);
 }
+body.light-mode .antiragging-btn {
+    background: #f0edff ;
+    color: #303a70
+}
