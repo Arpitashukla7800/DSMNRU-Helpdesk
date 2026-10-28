@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DSMNRU Helpdesk</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <!-- Header -->
+        <header class="header">
+
+            <div class="logo">
+                <div class="logo-icon">🎓</div>
+
+                <div>
+                    <h1>DSMNRU Helpdesk</h1>
+                    <p>Your Campus Assistant</p>
+                </div>
+            </div>
+
+            <div class="header-controls">
+
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                </select>
+
+                <button class="icon-btn" id="themeBtn"
+                    aria-label="Toggle dark mode">🌙</button>
+
+                <button class="icon-btn" id="clearBtn"
+                    aria-label="Clear chat">🗑️</button>
+
+            </div>
+
+        </header>
+
+
+        <!-- Chat Section -->
+        <main class="chat-area" id="chatArea">
+
+            <div class="welcome-card">
+
+                <div class="bot-avatar">🤖</div>
+
+                <h2>Welcome to DSMNRU! 👋</h2>
+
+                <p class="welcome-text">
+                    I'm your virtual assistant for Dr. Shakuntala
+                    Misra National Rehabilitation University, Lucknow.
+                </p>
+
+                <div class="divider"></div>
+
+                <h3>✨ How can I help you?</h3>
+
+                <div class="topic-list">
+                    <p>📚 Courses & Programs</p>
+                    <p>💰 Fees & Scholarships</p>
+                    <p>📝 Admissions</p>
+                    <p>🏫 Campus & Facilities</p>
+                    <p>💼 Placements</p>
+                    <p>📝 Pyq Papers and Syllabus</p>
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <!-- Quick Action Buttons -->
+        <section class="quick-section">
+
+            <h3 class="section-title">⚡ Quick Actions</h3>
+
+            <div class="quick-buttons">
+
+                <button data-msg="Courses">📚 Courses</button>
+
+                <button data-msg="Fees">💰 Fees</button>
+
+                <button data-msg="Admission">📝 Admission</button>
+
+                <button data-msg="Facilities">🏫 Facilities</button>
+
+                <button data-msg="Placement">💼 Placement</button>
+
+                <button data-msg="Contact">📞 Contact</button>
+
+                <button data-msg="Scholarships">🎓 Scholarships</button>
+
+                <button data-msg="PYQ Papers">📚 PYQ Papers</button>
+
+                <button data-msg="Syllabus">📖 Syllabus</button>
+
+                <a href="https://www.antiragging.in/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="antiragging-btn">
+   📋 Report on Anti-Ragging Portal
+</a> 
+
+                <button data-msg="Samarth">🗂️ Samarth</button>
+
+                <button data-msg="YouTube">▶️ YouTube</button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Message Input -->
+        <form class="input-area" id="chatForm">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Ask me anything about DSMNRU..."
+                autocomplete="off"
+                aria-label="Type your question"
+            >
+
+            <button type="submit" class="send-btn"
+                aria-label="Send message">➤</button>
+
+        </form>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <span>✨</span>
+            Managed by Ctrl-Alt-Elite- | DSMNRU Student Support
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
